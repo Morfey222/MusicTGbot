@@ -115,7 +115,7 @@ def send_track(update_or_query, context: CallbackContext, genre):
     result = get_random_video_link(genre, history=user_history)
 
     if not result:
-        chat.reply_text("⚠️ Все треки уже были показаны. Попробуй позже или выбери другой жанр.")
+        chat.reply_text("⚠️ Все треки уже были показаны.")
         return
 
     title = result["title"]
