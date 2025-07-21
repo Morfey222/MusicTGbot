@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ТВОИ КЛЮЧИ
-TELEGRAM_TOKEN = '7741106190:AAF4oTHbhRZ5ehsF7gU5LKQQ9AVwwvc2cnU'
-YOUTUBE_API_KEY = 'AIzaSyAzgQ8XacxqPhSd-iGkasmqYpDSRVQwAG4'
+TELEGRAM_TOKEN = 'your token'
+YOUTUBE_API_KEY = 'your api'
 
 GENRES = ['рок', 'поп', 'фонк', 'метал']
 
